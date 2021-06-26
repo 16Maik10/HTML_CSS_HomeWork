@@ -102,8 +102,10 @@ body {
 }
 
 .card img {
-  align-items: center;
-  margin-bottom: 51px;
+  align-self: center;
+  padding-bottom: 51px;
+  height: 120px;
+  width: 171px;
 }
 
 .card-link {
@@ -112,6 +114,59 @@ body {
   letter-spacing: 0.05em;
   text-decoration: none;
   color: #5a98d0;
+  margin-top: 29px;
+}
+
+.project {
+  margin-bottom: 112px;
+}
+
+.project__item {
+  position: relative;
+  flex-grow: 1;
+}
+
+.project__parent :first-child {
+  margin-right: 34px;
+}
+
+.project-text {
+  position: absolute;
+  top: 64px;
+  right: 64px;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: right;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.project-text-mini {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  font-size: 28px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.project__img {
+  width: 100%;
+}
+
+.project .text {
+  text-align: center;
+  width: 75%;
+  color: #222222;
+  opacity: 1;
+  margin: 32px auto 64px;
+}
+
+.project__parent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
 }
 
 .heading-contacts {
@@ -135,6 +190,7 @@ body {
   color: #1f3f68;
   letter-spacing: 0.05em;
   margin-bottom: 14px;
+  font-weight: normal;
 }
 
 .input-text {
@@ -156,6 +212,40 @@ body {
   text-transform: uppercase;
 }
 
+.footer {
+  background: #316099;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 113px;
+}
+
+.footer__text :first-child {
+  color: #fff;
+  margin-top: 91px;
+}
+
+.footer__top p {
+  color: #fff;
+  padding-top: 32px;
+  padding-bottom: 96px;
+}
+
+.footer__button {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #5a98d0;
+  padding: 15px 80px;
+  display: inline-block;
+  align-self: center;
+}
+
 .footer__text {
   width: 495px;
 }
@@ -165,9 +255,30 @@ body {
   text-align: left;
 }
 
+.footer__bottom {
+  padding: 64px 113px;
+  display: flex;
+  flex-direction: column;
+}
+
 .footer_info {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #fff;
+  margin-bottom: 64px;
+}
+
+.footer_info li {
+  width: 316px;
+  padding-left: 19px;
+}
+
+.footer__copy p {
+  color: #fff;
+  opacity: 0.4;
 }
 
 /*--contacts--*/
