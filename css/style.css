@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.top {
+  height: 768px;
+  background: linear-gradient(
+    0deg,
+    #ebf3fb 8.84%,
+    rgba(152, 195, 232, 0) 31.12%
+  );
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.top__box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding-top: 34px;
+}
+
+.top__info {
+  flex-grow: 1;
+  padding-top: 107px;
+  background: url(../img/top-back.png) no-repeat right center;
+}
+
+.top__heading {
+  width: 510px;
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+  color: #1f3f68;
+  margin-bottom: 34px;
+}
+.top__info p {
+  width: 425px;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1f3f68;
+  opacity: 0.6;
+}
+
+.top-button {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  text-decoration: none;
+  background: #5a98d0;
+  box-shadow: 5px 10px 20px rgb(53 110 173 / 20%);
+  border-radius: 10px;
+  padding: 15px 50px;
+  margin-top: 71px;
+}
+
+.what-we-do {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.what-we-do h3 {
+  width: 100%;
+}
+.card {
+  width: 359px;
+  text-align: center;
+}
+
+.heading-contacts {
+  font-weight: 500;
+  font-size: 44px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 36px;
+  text-align: center;
+}
+
+.heading-mini {
+  font-size: 20px;
+  line-height: 30px;
+  color: #1f3f68;
+}
+
+.input-text {
+  border: 1px solid #356ead;
+  box-sizing: border-box;
+  border-radius: 10px;
+  opacity: 0.4;
+}
+
+.button-submit {
+  background: #5a98d0;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.footer__text {
+  width: 495px;
+}
+
+.footer__text .heading {
+  width: 340px;
+  text-align: left;
+}
+
+.footer_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*--contacts--*/
+
+.contacts-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.map {
+  width: 100%;
+}
