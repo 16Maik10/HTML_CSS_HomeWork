@@ -101,7 +101,7 @@ body {
   flex-direction: column;
 }
 
-.card img {
+.card-img {
   align-self: center;
   padding-bottom: 51px;
   height: 120px;
@@ -114,7 +114,12 @@ body {
   letter-spacing: 0.05em;
   text-decoration: none;
   color: #5a98d0;
-  margin-top: 29px;
+  padding-top: 30px;
+  display: flex;
+}
+
+.card-link p {
+  padding-right: 20px;
 }
 
 .project {
@@ -219,7 +224,7 @@ body {
 .footer__top {
   display: flex;
   justify-content: space-between;
-  padding: 0 113px;
+  margin: 0 113px;
 }
 
 .footer__text :first-child {
@@ -256,9 +261,8 @@ body {
 }
 
 .footer__bottom {
-  padding: 64px 113px;
-  display: flex;
-  flex-direction: column;
+  margin: 64px 113px 0;
+  padding-bottom: 64px;
 }
 
 .footer_info {
