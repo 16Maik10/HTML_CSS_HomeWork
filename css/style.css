@@ -7,7 +7,7 @@ body {
 }
 
 .top {
-  height: 768px;
+  min-height: 768px;
   background: linear-gradient(
     0deg,
     #ebf3fb 8.84%,
@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
@@ -37,6 +37,7 @@ body {
   flex-grow: 1;
   padding-top: 107px;
   background: url(../img/top-back.png) no-repeat right center;
+  background-size: 44%;
 }
 
 .top__heading {
@@ -319,4 +320,57 @@ hr {
 
 .map {
   width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .top__info {
+    background-position: right 296px;
+    padding-bottom: 190px;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 667px) {
+  .header {
+    padding-top: 24px;
+  }
+
+  .top {
+    min-height: 376px;
+    padding-bottom: 41px;
+    box-sizing: border-box;
+  }
+
+  .top__info {
+    padding-top: 36px;
+    padding-bottom: 0;
+    background-image: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top__heading {
+    width: 100%;
+    font-size: 32px;
+    line-height: 37px;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+
+  .top__info p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .top-button {
+    font-size: 12px;
+    line-height: 26px;
+    padding: 0 8px;
+  }
 }
