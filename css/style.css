@@ -219,23 +219,25 @@ body {
 
 .footer {
   background: #316099;
+  padding-top: 91px;
+  padding-bottom: 64px;
+  margin-top: 112px;
 }
 
 .footer__top {
+  padding-bottom: 96px;
   display: flex;
   justify-content: space-between;
-  margin: 0 113px;
+  align-items: center;
 }
 
 .footer__text :first-child {
   color: #fff;
-  margin-top: 91px;
+  margin-bottom: 32px;
 }
 
 .footer__top p {
   color: #fff;
-  padding-top: 32px;
-  padding-bottom: 96px;
 }
 
 .footer__button {
@@ -247,7 +249,6 @@ body {
   color: #ffffff;
   background: #5a98d0;
   padding: 15px 80px;
-  display: inline-block;
   align-self: center;
 }
 
@@ -260,24 +261,48 @@ body {
   text-align: left;
 }
 
-.footer__bottom {
-  margin: 64px 113px 0;
-  padding-bottom: 64px;
+hr {
+  opacity: 0.4;
 }
 
 .footer_info {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-top: 64px;
+}
+
+.footer__list {
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.05em;
   color: #fff;
-  margin-bottom: 64px;
+  flex-grow: 1;
+  flex-basis: 33.3333%;
+  list-style-type: none;
+  display: flex;
+  margin-right: 32px;
 }
 
-.footer_info li {
-  width: 316px;
-  padding-left: 19px;
+.marker-1::before {
+  content: "A.";
+  display: block;
+  margin-right: 19px;
+}
+
+.marker-2::before {
+  content: "T.";
+  display: block;
+  margin-right: 19px;
+}
+
+.marker-3::before {
+  content: "E.";
+  display: block;
+  margin-right: 19px;
+}
+
+.footer__copy {
+  margin-top: 64px;
 }
 
 .footer__copy p {
