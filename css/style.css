@@ -333,6 +333,15 @@ hr {
     padding-bottom: 190px;
     box-sizing: border-box;
   }
+
+  .card-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    margin-bottom: 32px;
+  }
 }
 
 @media (max-width: 667px) {
@@ -372,5 +381,60 @@ hr {
     font-size: 12px;
     line-height: 26px;
     padding: 0 8px;
+  }
+
+  .what-we-do {
+    margin-top: 48px;
+  }
+
+  .what-we-do h3 {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: normal;
+  }
+
+  .card-box {
+    padding-top: 32px;
+  }
+
+  .card {
+    width: 100%;
+    padding: 32px 20px;
+  }
+
+  .project h3 {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: normal;
+  }
+
+  .project .text {
+    width: 100%;
+    margin: 32px auto 82px;
+  }
+
+  .project-text {
+    font-size: 16px;
+    line-height: 19px;
+    right: 16px;
+    top: 16px;
+  }
+
+  .project__parent {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .project__item {
+    margin-right: 0;
+    margin-top: 17px;
+    width: 100%;
+  }
+
+  .project-text-mini {
+    font-size: 16px;
+    line-height: 19px;
+    top: 26px;
+    left: 16px;
   }
 }
