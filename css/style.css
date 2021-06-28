@@ -254,7 +254,7 @@ body {
 }
 
 .footer__text {
-  width: 495px;
+  width: 43%;
 }
 
 .footer__text .heading {
@@ -341,6 +341,53 @@ hr {
 
   .card {
     margin-bottom: 32px;
+  }
+
+  .footer {
+    padding-top: 47px;
+  }
+
+  .footer__top {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 64px;
+  }
+
+  .footer__text {
+    width: 60%;
+  }
+
+  .footer__button {
+    padding: 7px 35px;
+  }
+
+  .footer__bottom {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .footer_info {
+    flex-direction: column;
+  }
+
+  .marker-1::before {
+    margin-right: 45px;
+  }
+
+  .marker-2::before {
+    margin-right: 45px;
+  }
+
+  .marker-3::before {
+    margin-right: 45px;
+  }
+
+  .footer__list {
+    margin-bottom: 25px;
+  }
+
+  .footer__copy {
+    margin-top: 39px;
   }
 }
 
