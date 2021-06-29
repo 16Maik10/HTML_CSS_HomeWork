@@ -343,6 +343,9 @@ hr {
     margin-bottom: 32px;
   }
 
+  .project__parent :first-child {
+    margin-right: 0;
+  }
   .footer {
     padding-top: 47px;
   }
