@@ -444,9 +444,17 @@ hr {
     padding-top: 32px;
   }
 
+  .project {
+    margin-bottom: 64px;
+  }
+
   .card {
     width: 100%;
     padding: 32px 20px;
+  }
+
+  .project {
+    margin-bottom: 32px;
   }
 
   .project h3 {
@@ -483,5 +491,65 @@ hr {
     line-height: 19px;
     top: 26px;
     left: 16px;
+  }
+
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .footer {
+    padding-top: 18px;
+    padding-bottom: 32px;
+    margin: 0;
+  }
+
+  .footer__top {
+    flex-direction: column;
+    width: fit-content;
+    padding-bottom: 0;
+  }
+
+  .footer__text .heading {
+    text-align: center;
+    font-size: 24px;
+    line-height: 28px;
+    width: 70%;
+    margin: 0 auto 32px;
+  }
+
+  .footer__text {
+    text-align: center;
+    margin-bottom: 40px;
+    width: fit-content;
+  }
+
+  .footer__button {
+    margin-bottom: 40px;
+  }
+
+  .footer__bottom {
+    width: fit-content;
+  }
+
+  .footer__list {
+    margin-bottom: 18px;
+    margin-right: 0;
+  }
+
+  .marker-1::before {
+    margin-right: 23px;
+  }
+
+  .marker-2::before {
+    margin-right: 23px;
+  }
+
+  .marker-3::before {
+    margin-right: 23px;
+  }
+  .footer__copy {
+    text-align: center;
+    margin-top: 32px;
   }
 }
