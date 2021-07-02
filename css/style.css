@@ -319,10 +319,14 @@ hr {
   margin: 0 auto;
 }
 
+.main-content {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
 .contacts__main {
   display: flex;
-  justify-content: space-between;
-  max-width: 81%;
+  justify-content: center;
   margin: 57px auto 96px;
 }
 
@@ -332,7 +336,7 @@ hr {
 
 .contacts__info {
   max-width: 300px;
-  margin: 54px 0 57px;
+  margin: 54px 101px 57px 0;
 }
 
 .info-heading {
@@ -368,6 +372,7 @@ hr {
 }
 
 .form {
+  max-width: 540px;
   background: #ffffff;
   box-shadow: 5px 10px 50px rgb(16 112 177 / 20%);
   border-radius: 10px;
@@ -420,8 +425,7 @@ textarea {
 }
 
 .map {
-  width: 81%;
-  margin: 0 auto 112px;
+  margin-bottom: 112px;
 }
 
 @media (max-width: 1024px) {
@@ -453,6 +457,10 @@ textarea {
     flex-direction: column;
     align-items: center;
     margin-bottom: 56px;
+  }
+
+  .contacts__info {
+    margin-right: 0;
   }
 
   .map {
